@@ -1,0 +1,53 @@
+.root {
+    background-color: var(--grey-bg);
+    border-radius: 32px;
+    max-height: fit-content;
+    padding: 52px;
+}
+
+h1 {
+    color: var(--primary-color);
+}
+
+.yourJob {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.yourCandidates {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.greenHouseBanner h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.greenHouseBanner p {
+    z-index: 100;
+    width: 80%;
+}
+
+.greenHouseBanner img {
+    position: absolute;
+    top: 60px;
+    height: 200px;
+    right: 0;
+}
+
+.greenHouseBanner {
+    margin: 30px 0;
+    background-image: url("../../../public/img/bannerImg.svg");
+    background-color: #DEE8E5;
+    padding: 52px ;
+    border-radius: 32px;
+    position: relative;
+    background-position-x: 534px;
+    background-repeat: no-repeat;
+    background-size: 43%;
+    background-position-y: 12px;
+}

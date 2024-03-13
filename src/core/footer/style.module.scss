@@ -1,0 +1,20 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+}
+
+.footer p{
+    text-align: center;
+    margin-bottom: 0;
+    color: rgba(0, 0, 0, 0.605);
+    font-size: 16px !important;
+    margin: 0;
+}
+
+.footer a{
+    margin: 0 auto;
+    color: black;
+    font-weight: 600;
+    font-size: 16px !important;
+}

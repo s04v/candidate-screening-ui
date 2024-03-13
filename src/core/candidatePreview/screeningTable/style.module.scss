@@ -1,0 +1,23 @@
+.score {
+    background-color: #E1EEED;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 25px;
+    font-weight: bold;
+    width: 70px;
+}
+
+.greenScore {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.redScore {
+    background-color: #B72020;
+    color: white;
+}
+
+.yellowScore {
+    background-color: #EAB600;
+    color: white;
+}

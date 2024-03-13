@@ -1,0 +1,56 @@
+.root {
+    background-color: var(--grey-bg);
+    border-radius: 32px;
+    max-height: fit-content;
+    padding: 52px;
+}
+
+.back {
+    font-size: 20px;
+    cursor: pointer;
+    color: #9A9A9A;
+}
+
+textarea {
+    width: 100%;
+    min-height: 150px;
+    margin-bottom: 20px;
+    padding: 15px 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.fields {
+    display: flex;
+    justify-content: space-between;
+}
+
+.emptyFileInput {
+    border: 1px dashed var(--primary-color);
+    text-align: center;
+    width: 200px;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.fileInput img{
+    cursor: pointer;
+    width: 180px;
+}
+
+.fileInput {
+    padding: 10px;
+    border: 1px dashed var(--primary-color);
+    cursor: pointer;
+}
+
+.pdfCanvas {
+    width: 180px;
+}

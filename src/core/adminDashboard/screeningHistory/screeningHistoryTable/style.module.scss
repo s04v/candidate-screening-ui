@@ -1,0 +1,35 @@
+.root table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+    margin-bottom: 14px;
+    position: relative;
+}
+
+.root table th { 
+    padding-right: 75px;
+}
+
+.tableShadow {
+    position: relative;
+}
+
+.rightShadow {
+    background: linear-gradient(90deg, rgba(219, 171, 0, 0) 0%, rgb(255 255 255) 100%);
+    height: calc(100% - 97px);
+    width: 50px;
+    position: absolute;
+    z-index: 1000;
+    right: 0;
+    bottom: 23px;
+}
+
+.leftShadow {
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(219,171,0,0) 100%);
+    height: calc(100% - 97px);
+    width: 50px;
+    position: absolute;
+    z-index: 1000;
+    bottom: 23px;
+    visibility: hidden;
+}

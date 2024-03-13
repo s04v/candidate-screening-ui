@@ -1,0 +1,29 @@
+.root {
+    background-color: var(--grey-bg);
+    border-radius: 32px;
+    max-height: fit-content;
+    padding: 52px;
+}
+
+h1 {
+    color: var(--primary-color);
+}
+
+.back {
+    font-size: 20px;
+    cursor: pointer;
+    color: #9A9A9A;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.criteria {
+    background-color: white;
+    padding: 25px;
+    border-radius: 20px;
+}

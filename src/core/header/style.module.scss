@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    margin-left: auto;
+    margin-right: 10px;
+    gap: 10px;
+}
+
+.menu p {
+    cursor: pointer;
+    margin: 0;
+    background-color: #E1EEED;
+    padding: 10px 25px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    gap: 5px;
+}
+
+.menu p:last-child {
+    border-radius: 100%;
+    padding: 10px 10px;
+}

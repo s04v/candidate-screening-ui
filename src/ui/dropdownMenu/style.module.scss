@@ -1,0 +1,42 @@
+.dropdownMenu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 2px 2px 3px #cdcdcd;
+    width: 220px;
+    text-align: center;
+    margin-right: 120px;
+    border: 1px solid black;
+    margin-top: -14px;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px 0;
+}
+
+.dropdownMenu p {
+    margin: 0;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+.dropdownMenu p:hover {
+    background-color: #f2f2f2;
+}
+
+.openMenu {
+    display: block;
+} 
+
+.dropdownInput img { 
+    width: 13px;
+} 
+
+.dropdownInput {
+    display: flex;
+    gap: 10px;
+    border: 1px solid black;
+    padding: 5px 10px;
+    cursor: pointer;
+    justify-content: space-between;
+    width: 200px;
+    border-radius: 10px;
+}

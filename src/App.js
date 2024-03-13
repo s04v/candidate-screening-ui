@@ -1,24 +1,23 @@
 import logo from './logo.svg';
-import './App.css';
+import { SignIn } from './core/auth/SignIn';
+import { SignUp } from './core/auth/SignUp';
+import { MainPage } from './core/mainPage/MainPage';
+import { BrowserRouter } from 'react-router-dom';
+import { RouteCombiner } from './infra/router/RouteCombiner';
+
+import routes from './infra/router/Routes';
+import { Toaster } from 'react-hot-toast';
+import { AllJobsTable } from './core/dashboard/allJobsTable/AllJobsTable';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    return (
+    <BrowserRouter>
+        <RouteCombiner routes={routes} />
+        <div><Toaster
+            position="top-right"
+            reverseOrder={false}
+            /></div>
+    </BrowserRouter>
   );
 }
 
